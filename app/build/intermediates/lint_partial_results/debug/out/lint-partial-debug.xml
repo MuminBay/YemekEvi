@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.1.4" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.example.yemekevi.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.layout.activity_yemek_listesi"
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_listesi.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="16"
+            endColumn="16"
+            endOffset="544"/>
+        <location id="R.layout.activity_bos_sayfa"
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_bos_sayfa.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="17"
+            endColumn="16"
+            endOffset="559"/>
+        <location id="R.color.black"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="3"
+            column="12"
+            startOffset="62"
+            endLine="3"
+            endColumn="24"
+            endOffset="74"/>
+        <location id="R.color.white"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="4"
+            column="12"
+            startOffset="104"
+            endLine="4"
+            endColumn="24"
+            endOffset="116"/>
+        <location id="R.layout.adapter_list"
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/adapter_list.xml"
+            line="2"
+            column="1"
+            startOffset="40"
+            endLine="29"
+            endColumn="53"
+            endOffset="1183"/>
+        <location id="R.layout.activity_yemek_detay_sayfa"
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay_sayfa.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="16"
+            endColumn="16"
+            endOffset="534"/>
+        <entry
+            name="model"
+            string="color[black(D),white(D)],drawable[meksika_bayrak(U),doner(U),italya_bayrak(U),tokat_kebabi(U),tacos(U),japonya_bayrak(U),ic_launcher_foreground(U),pizza(U),ic_launcher_background(U),yemek1(U),sushi(U),kebab(U),turkiye_bayrak(U),ic_launcher_foreground_1(R),hover_border(D)],id[bosSayfaLayout(D),ulke4(D),ulke3(D),ulke2(D),ulke1(D),ulke8(D),ulke7(D),imageView(D),lstvTxt(D),webView1(U),yemekAdi1(D),yemekAdi2(D),loadingText(U),yemekAdi3(D),yemekAdi4(D),bayrak1(D),yemekAdi7(D),yemekAdi8(D),bayrak8(D),bayrak7(D),yemekEviText(U),videoView(D),bayrak4(D),bayrak3(D),bayrak2(D),bilgiLayout4(D),bilgiLayout3(D),bilgiLayout2(D),bilgiLayout1(D),bilgiLayout8(D),toast_txt1(D),bilgiLayout7(D),yemekLayout2(U),yemekLayout1(U),yemekLayout4(U),yemekLayout3(U),yemekLayout8(U),yemekLayout7(U),yemekOzet(D),yemekResim8(D),aciklama1(U),yemekResim7(D),yemekResim2(D),yemekResim1(D),yemekResim4(D),yemekResim3(D),logoImageView(U),yemekListesiTextView(D),yemekBilgi(D),toast_img1(D)],layout[activity_yemek_listesi(D),activity_yemek_detay(U),custom_toast(D),activity_yemek_detay_sayfa(D),activity_main(U),adapter_list(D),activity_yeni_bos_sayfa(U),activity_yemek_video(D),activity_bos_sayfa(D)],mipmap[ic_launcher_round(U),ic_launcher(U)],string[app_name(U)],style[Base_Theme_YemekEvi(U),Theme_YemekEvi(U),Theme_Material3_DayNight_NoActionBar(R),Base_Theme_DersYBS4_2211(D)],xml[data_extraction_rules(U),backup_rules(U)];8^f,44^d^e^c^7^6^2^9^4^3^5,45^2f^42,47^b,4c^a^8,4d^a^8,4f^51,50^4f,52^51;;;"/>
+        <location id="R.layout.custom_toast"
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/custom_toast.xml"
+            line="2"
+            column="1"
+            startOffset="40"
+            endLine="27"
+            endColumn="53"
+            endOffset="1222"/>
+        <location id="R.layout.activity_yemek_video"
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_video.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="21"
+            endColumn="16"
+            endOffset="683"/>
+        <location id="R.style.Base_Theme_DersYBS4_2211"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values-night/themes.xml"
+            line="3"
+            column="12"
+            startOffset="107"
+            endLine="3"
+            endColumn="43"
+            endOffset="138"/>
+        <location id="R.drawable.hover_border"
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/hover_border.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="7"
+            endColumn="9"
+            endOffset="229"/>
+    </map>
+
+</incidents>

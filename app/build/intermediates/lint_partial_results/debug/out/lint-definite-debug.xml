@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.1.4" type="incidents">
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Boş Sayfa&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_bos_sayfa.xml"
+            line="13"
+            column="9"
+            startOffset="434"
+            endLine="13"
+            endColumn="33"
+            endOffset="458"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Logo Resmi&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="14"
+            column="9"
+            startOffset="463"
+            endLine="14"
+            endColumn="48"
+            endOffset="502"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Yemek Evi&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="20"
+            column="9"
+            startOffset="657"
+            endLine="20"
+            endColumn="33"
+            endOffset="681"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Yükleniyor&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="29"
+            column="9"
+            startOffset="956"
+            endLine="29"
+            endColumn="34"
+            endOffset="981"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="22"
+            column="14"
+            startOffset="742"
+            endLine="22"
+            endColumn="23"
+            endOffset="751"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Adana Kebap&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="41"
+            column="21"
+            startOffset="1504"
+            endLine="41"
+            endColumn="47"
+            endOffset="1530"/>
+    </incident>
+
+    <incident
+        id="PxUsage"
+        severity="warning"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="51"
+            column="21"
+            startOffset="1914"
+            endLine="51"
+            endColumn="53"
+            endOffset="1946"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Türkiye&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="49"
+            column="21"
+            startOffset="1827"
+            endLine="49"
+            endColumn="43"
+            endOffset="1849"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="53"
+            column="18"
+            startOffset="1968"
+            endLine="53"
+            endColumn="27"
+            endOffset="1977"/>
+    </incident>
+
+    <incident
+        id="PxUsage"
+        severity="warning"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="58"
+            column="21"
+            startOffset="2200"
+            endLine="58"
+            endColumn="52"
+            endOffset="2231"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="71"
+            column="14"
+            startOffset="2619"
+            endLine="71"
+            endColumn="23"
+            endOffset="2628"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Sushi&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="90"
+            column="21"
+            startOffset="3381"
+            endLine="90"
+            endColumn="41"
+            endOffset="3401"/>
+    </incident>
+
+    <incident
+        id="PxUsage"
+        severity="warning"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="100"
+            column="21"
+            startOffset="3785"
+            endLine="100"
+            endColumn="53"
+            endOffset="3817"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Japonya&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="98"
+            column="21"
+            startOffset="3698"
+            endLine="98"
+            endColumn="43"
+            endOffset="3720"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="102"
+            column="18"
+            startOffset="3839"
+            endLine="102"
+            endColumn="27"
+            endOffset="3848"/>
+    </incident>
+
+    <incident
+        id="PxUsage"
+        severity="warning"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="107"
+            column="21"
+            startOffset="4071"
+            endLine="107"
+            endColumn="52"
+            endOffset="4102"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="120"
+            column="14"
+            startOffset="4489"
+            endLine="120"
+            endColumn="23"
+            endOffset="4498"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Taco&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="139"
+            column="21"
+            startOffset="5251"
+            endLine="139"
+            endColumn="40"
+            endOffset="5270"/>
+    </incident>
+
+    <incident
+        id="PxUsage"
+        severity="warning"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="149"
+            column="21"
+            startOffset="5654"
+            endLine="149"
+            endColumn="53"
+            endOffset="5686"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Meksika&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="147"
+            column="21"
+            startOffset="5567"
+            endLine="147"
+            endColumn="43"
+            endOffset="5589"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="151"
+            column="18"
+            startOffset="5708"
+            endLine="151"
+            endColumn="27"
+            endOffset="5717"/>
+    </incident>
+
+    <incident
+        id="PxUsage"
+        severity="warning"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="156"
+            column="21"
+            startOffset="5940"
+            endLine="156"
+            endColumn="52"
+            endOffset="5971"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="169"
+            column="14"
+            startOffset="6359"
+            endLine="169"
+            endColumn="23"
+            endOffset="6368"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Pizza&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="188"
+            column="21"
+            startOffset="7121"
+            endLine="188"
+            endColumn="41"
+            endOffset="7141"/>
+    </incident>
+
+    <incident
+        id="PxUsage"
+        severity="warning"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="198"
+            column="21"
+            startOffset="7524"
+            endLine="198"
+            endColumn="53"
+            endOffset="7556"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;İtalya&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="196"
+            column="21"
+            startOffset="7438"
+            endLine="196"
+            endColumn="42"
+            endOffset="7459"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="200"
+            column="18"
+            startOffset="7578"
+            endLine="200"
+            endColumn="27"
+            endOffset="7587"/>
+    </incident>
+
+    <incident
+        id="PxUsage"
+        severity="warning"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="205"
+            column="21"
+            startOffset="7809"
+            endLine="205"
+            endColumn="52"
+            endOffset="7840"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="218"
+            column="14"
+            startOffset="8228"
+            endLine="218"
+            endColumn="23"
+            endOffset="8237"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Döner&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="237"
+            column="21"
+            startOffset="8990"
+            endLine="237"
+            endColumn="41"
+            endOffset="9010"/>
+    </incident>
+
+    <incident
+        id="PxUsage"
+        severity="warning"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="247"
+            column="21"
+            startOffset="9394"
+            endLine="247"
+            endColumn="53"
+            endOffset="9426"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Türkiye&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="245"
+            column="21"
+            startOffset="9307"
+            endLine="245"
+            endColumn="43"
+            endOffset="9329"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="249"
+            column="18"
+            startOffset="9448"
+            endLine="249"
+            endColumn="27"
+            endOffset="9457"/>
+    </incident>
+
+    <incident
+        id="PxUsage"
+        severity="warning"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="254"
+            column="21"
+            startOffset="9680"
+            endLine="254"
+            endColumn="52"
+            endOffset="9711"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="266"
+            column="14"
+            startOffset="10059"
+            endLine="266"
+            endColumn="23"
+            endOffset="10068"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Tokat Kebabı&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="285"
+            column="21"
+            startOffset="10828"
+            endLine="285"
+            endColumn="48"
+            endOffset="10855"/>
+    </incident>
+
+    <incident
+        id="PxUsage"
+        severity="warning"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="295"
+            column="21"
+            startOffset="11239"
+            endLine="295"
+            endColumn="53"
+            endOffset="11271"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Türkiye&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="293"
+            column="21"
+            startOffset="11152"
+            endLine="293"
+            endColumn="43"
+            endOffset="11174"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="297"
+            column="18"
+            startOffset="11293"
+            endLine="297"
+            endColumn="27"
+            endOffset="11302"/>
+    </incident>
+
+    <incident
+        id="PxUsage"
+        severity="warning"
+        message="Avoid using &quot;`px`&quot; as units; use &quot;`dp`&quot; instead">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="302"
+            column="21"
+            startOffset="11525"
+            endLine="302"
+            endColumn="52"
+            endOffset="11556"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Yemek Bilgisi&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay_sayfa.xml"
+            line="12"
+            column="9"
+            startOffset="405"
+            endLine="12"
+            endColumn="37"
+            endOffset="433"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Yemek Listesi&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_listesi.xml"
+            line="12"
+            column="9"
+            startOffset="415"
+            endLine="12"
+            endColumn="37"
+            endOffset="443"/>
+    </incident>
+
+    <incident
+        id="WebViewLayout"
+        severity="error"
+        message="Placing a `&lt;WebView>` in a parent element that uses a `wrap_content layout_height` can lead to subtle bugs; use `match_parent` instead">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yeni_bos_sayfa.xml"
+            line="13"
+            column="10"
+            startOffset="414"
+            endLine="13"
+            endColumn="17"
+            endOffset="421"/>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yeni_bos_sayfa.xml"
+            line="9"
+            column="9"
+            startOffset="296"
+            endLine="9"
+            endColumn="45"
+            endOffset="332"
+            message="`wrap_content` here may not work well with WebView below"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;TextView&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/adapter_list.xml"
+            line="14"
+            column="9"
+            startOffset="579"
+            endLine="14"
+            endColumn="32"
+            endOffset="602"/>
+    </incident>
+
+    <incident
+        id="SpUsage"
+        severity="warning"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <fix-replace
+            description="Replace with sp"
+            oldPattern=".*(di?p)"
+            replacement="sp"/>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/adapter_list.xml"
+            line="16"
+            column="9"
+            startOffset="649"
+            endLine="16"
+            endColumn="32"
+            endOffset="672"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/adapter_list.xml"
+            line="20"
+            column="6"
+            startOffset="790"
+            endLine="20"
+            endColumn="15"
+            endOffset="799"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/custom_toast.xml"
+            line="8"
+            column="6"
+            startOffset="351"
+            endLine="8"
+            endColumn="15"
+            endOffset="360"/>
+    </incident>
+
+    <incident
+        id="SetJavaScriptEnabled"
+        severity="warning"
+        message="Using `setJavaScriptEnabled` can introduce XSS vulnerabilities into your application, review carefully">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/yemekevi/YeniBosSayfaActivity.java"
+            line="33"
+            column="9"
+            startOffset="899"
+            endLine="33"
+            endColumn="57"
+            endOffset="947"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/yemekevi/YeniBosSayfaActivity.java"
+            line="90"
+            column="26"
+            startOffset="4936"
+            endLine="90"
+            endColumn="73"
+            endOffset="4983"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/yemekevi/YeniBosSayfaActivity.java"
+            line="90"
+            column="38"
+            startOffset="4948"
+            endLine="90"
+            endColumn="73"
+            endOffset="4983"/>
+    </incident>
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 35"
+            oldString="34"
+            replacement="35"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="12"
+            column="9"
+            startOffset="227"
+            endLine="12"
+            endColumn="23"
+            endOffset="241"/>
+    </incident>
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 35"
+            oldString="34"
+            replacement="35"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="12"
+            column="9"
+            startOffset="203"
+            endLine="12"
+            endColumn="21"
+            endOffset="215"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead (androidx.appcompat:appcompat is already available as `appcompat`, but using version 1.7.0 instead)">
+        <fix-alternatives>
+            <fix-composite
+                description="Replace with new library catalog declaration for appcompat-1_6_1"
+                robot="true"
+                independent="true">
+                <fix-replace
+                    description="Replace with appcompatVersion = &quot;1.6.1&quot;..."
+                    robot="true"
+                    independent="true"
+                    oldString="_lint_insert_begin_"
+                    replacement="appcompatVersion = &quot;1.6.1&quot;&#xA;">
+                    <range
+                        file="$HOME/Desktop/YemekKop/gradle/libs.versions.toml"
+                        startOffset="25"
+                        endOffset="25"/>
+                </fix-replace>
+                <fix-replace
+                    description="Replace with appcompat-1_6_1 = { module = &quot;androidx.appcompat:appcompat&quot;, version.ref = &quot;appcompatVersion&quot; }..."
+                    robot="true"
+                    independent="true"
+                    oldString="_lint_insert_begin_"
+                    replacement="appcompat-1_6_1 = { module = &quot;androidx.appcompat:appcompat&quot;, version.ref = &quot;appcompatVersion&quot; }&#xA;">
+                    <range
+                        file="$HOME/Desktop/YemekKop/gradle/libs.versions.toml"
+                        startOffset="187"
+                        endOffset="187"/>
+                </fix-replace>
+                <fix-replace
+                    description="Replace with libs.appcompat.1_6_1"
+                    robot="true"
+                    independent="true"
+                    replacement="libs.appcompat.1_6_1">
+                    <range
+                        file="${:app*projectDir}/build.gradle"
+                        startOffset="792"
+                        endOffset="828"/>
+                </fix-replace>
+            </fix-composite>
+            <fix-replace
+                description="Replace with existing version catalog reference `appcompat`"
+                replacement="libs.appcompat">
+                <range
+                    file="${:app*projectDir}/build.gradle"
+                    startOffset="792"
+                    endOffset="828"/>
+            </fix-replace>
+        </fix-alternatives>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="37"
+            column="20"
+            startOffset="792"
+            endLine="37"
+            endColumn="56"
+            endOffset="828"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead (com.google.android.material:material is already available as `material`, but using version 1.12.0 instead)">
+        <fix-alternatives>
+            <fix-composite
+                description="Replace with new library catalog declaration for material-1_9_0"
+                robot="true"
+                independent="true">
+                <fix-replace
+                    description="Replace with materialVersion = &quot;1.9.0&quot;..."
+                    robot="true"
+                    independent="true"
+                    oldString="_lint_insert_begin_"
+                    replacement="materialVersion = &quot;1.9.0&quot;&#xA;">
+                    <range
+                        file="$HOME/Desktop/YemekKop/gradle/libs.versions.toml"
+                        startOffset="174"
+                        endOffset="174"/>
+                </fix-replace>
+                <fix-replace
+                    description="Replace with material-1_9_0 = { module = &quot;com.google.android.material:material&quot;, version.ref = &quot;materialVersion&quot; }..."
+                    robot="true"
+                    independent="true"
+                    oldString="_lint_insert_begin_"
+                    replacement="material-1_9_0 = { module = &quot;com.google.android.material:material&quot;, version.ref = &quot;materialVersion&quot; }&#xA;">
+                    <range
+                        file="$HOME/Desktop/YemekKop/gradle/libs.versions.toml"
+                        startOffset="849"
+                        endOffset="849"/>
+                </fix-replace>
+                <fix-replace
+                    description="Replace with libs.material.1_9_0"
+                    robot="true"
+                    independent="true"
+                    replacement="libs.material.1_9_0">
+                    <range
+                        file="${:app*projectDir}/build.gradle"
+                        startOffset="848"
+                        endOffset="892"/>
+                </fix-replace>
+            </fix-composite>
+            <fix-replace
+                description="Replace with existing version catalog reference `material`"
+                replacement="libs.material">
+                <range
+                    file="${:app*projectDir}/build.gradle"
+                    startOffset="848"
+                    endOffset="892"/>
+            </fix-replace>
+        </fix-alternatives>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="38"
+            column="20"
+            startOffset="848"
+            endLine="38"
+            endColumn="64"
+            endOffset="892"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead (androidx.constraintlayout:constraintlayout is already available as `constraintlayout`, but using version 2.2.0 instead)">
+        <fix-alternatives>
+            <fix-composite
+                description="Replace with new library catalog declaration for constraintlayout-2_1_4"
+                robot="true"
+                independent="true">
+                <fix-replace
+                    description="Replace with constraintlayoutVersion = &quot;2.1.4&quot;..."
+                    robot="true"
+                    independent="true"
+                    oldString="_lint_insert_begin_"
+                    replacement="constraintlayoutVersion = &quot;2.1.4&quot;&#xA;">
+                    <range
+                        file="$HOME/Desktop/YemekKop/gradle/libs.versions.toml"
+                        startOffset="25"
+                        endOffset="25"/>
+                </fix-replace>
+                <fix-replace
+                    description="Replace with constraintlayout-2_1_4 = { module = &quot;androidx.constraintlayout:constraintlayout&quot;, version.ref = &quot;constraintlayoutVersion&quot; }..."
+                    robot="true"
+                    independent="true"
+                    oldString="_lint_insert_begin_"
+                    replacement="constraintlayout-2_1_4 = { module = &quot;androidx.constraintlayout:constraintlayout&quot;, version.ref = &quot;constraintlayoutVersion&quot; }&#xA;">
+                    <range
+                        file="$HOME/Desktop/YemekKop/gradle/libs.versions.toml"
+                        startOffset="187"
+                        endOffset="187"/>
+                </fix-replace>
+                <fix-replace
+                    description="Replace with libs.constraintlayout.2_1_4"
+                    robot="true"
+                    independent="true"
+                    replacement="libs.constraintlayout.2_1_4">
+                    <range
+                        file="${:app*projectDir}/build.gradle"
+                        startOffset="912"
+                        endOffset="962"/>
+                </fix-replace>
+            </fix-composite>
+            <fix-replace
+                description="Replace with existing version catalog reference `constraintlayout`"
+                replacement="libs.constraintlayout">
+                <range
+                    file="${:app*projectDir}/build.gradle"
+                    startOffset="912"
+                    endOffset="962"/>
+            </fix-replace>
+        </fix-alternatives>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="39"
+            column="20"
+            startOffset="912"
+            endLine="39"
+            endColumn="70"
+            endOffset="962"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <fix-composite
+            description="Replace with new library catalog declaration for core-ktx"
+            robot="true">
+            <fix-replace
+                description="Replace with coreKtx = &quot;1.9.0&quot;..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="coreKtx = &quot;1.9.0&quot;&#xA;">
+                <range
+                    file="$HOME/Desktop/YemekKop/gradle/libs.versions.toml"
+                    startOffset="25"
+                    endOffset="25"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with core-ktx = { module = &quot;androidx.core:core-ktx&quot;, version.ref = &quot;coreKtx&quot; }..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="core-ktx = { module = &quot;androidx.core:core-ktx&quot;, version.ref = &quot;coreKtx&quot; }&#xA;">
+                <range
+                    file="$HOME/Desktop/YemekKop/gradle/libs.versions.toml"
+                    startOffset="187"
+                    endOffset="187"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with libs.core.ktx"
+                robot="true"
+                replacement="libs.core.ktx">
+                <range
+                    file="${:app*projectDir}/build.gradle"
+                    startOffset="982"
+                    endOffset="1012"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="40"
+            column="20"
+            startOffset="982"
+            endLine="40"
+            endColumn="50"
+            endOffset="1012"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use the existing version catalog reference (`libs.junit`) instead">
+        <fix-replace
+            description="Replace with existing version catalog reference `junit`"
+            robot="true"
+            independent="true"
+            replacement="libs.junit">
+            <range
+                file="${:app*projectDir}/build.gradle"
+                startOffset="1041"
+                endOffset="1061"/>
+        </fix-replace>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="42"
+            column="24"
+            startOffset="1041"
+            endLine="42"
+            endColumn="44"
+            endOffset="1061"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead (androidx.test.ext:junit is already available as `ext-junit`, but using version 1.2.1 instead)">
+        <fix-alternatives>
+            <fix-composite
+                description="Replace with new library catalog declaration for junit-1_1_5"
+                robot="true"
+                independent="true">
+                <fix-replace
+                    description="Replace with androidx-junit = &quot;1.1.5&quot;..."
+                    robot="true"
+                    independent="true"
+                    oldString="_lint_insert_begin_"
+                    replacement="androidx-junit = &quot;1.1.5&quot;&#xA;">
+                    <range
+                        file="$HOME/Desktop/YemekKop/gradle/libs.versions.toml"
+                        startOffset="25"
+                        endOffset="25"/>
+                </fix-replace>
+                <fix-replace
+                    description="Replace with junit-1_1_5 = { module = &quot;androidx.test.ext:junit&quot;, version.ref = &quot;androidx-junit&quot; }..."
+                    robot="true"
+                    independent="true"
+                    oldString="_lint_insert_begin_"
+                    replacement="junit-1_1_5 = { module = &quot;androidx.test.ext:junit&quot;, version.ref = &quot;androidx-junit&quot; }&#xA;">
+                    <range
+                        file="$HOME/Desktop/YemekKop/gradle/libs.versions.toml"
+                        startOffset="543"
+                        endOffset="543"/>
+                </fix-replace>
+                <fix-replace
+                    description="Replace with libs.junit.1_1_5"
+                    robot="true"
+                    independent="true"
+                    replacement="libs.junit.1_1_5">
+                    <range
+                        file="${:app*projectDir}/build.gradle"
+                        startOffset="1092"
+                        endOffset="1123"/>
+                </fix-replace>
+            </fix-composite>
+            <fix-replace
+                description="Replace with existing version catalog reference `ext-junit`"
+                replacement="libs.ext.junit">
+                <range
+                    file="${:app*projectDir}/build.gradle"
+                    startOffset="1092"
+                    endOffset="1123"/>
+            </fix-replace>
+        </fix-alternatives>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="43"
+            column="31"
+            startOffset="1092"
+            endLine="43"
+            endColumn="62"
+            endOffset="1123"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead (androidx.test.espresso:espresso-core is already available as `espresso-core`, but using version 3.6.1 instead)">
+        <fix-alternatives>
+            <fix-composite
+                description="Replace with new library catalog declaration for espresso-core-3_5_1"
+                robot="true"
+                independent="true">
+                <fix-replace
+                    description="Replace with androidx-espressoCore = &quot;3.5.1&quot;..."
+                    robot="true"
+                    independent="true"
+                    oldString="_lint_insert_begin_"
+                    replacement="androidx-espressoCore = &quot;3.5.1&quot;&#xA;">
+                    <range
+                        file="$HOME/Desktop/YemekKop/gradle/libs.versions.toml"
+                        startOffset="25"
+                        endOffset="25"/>
+                </fix-replace>
+                <fix-replace
+                    description="Replace with espresso-core-3_5_1 = { module = &quot;androidx.test.espresso:espresso-core&quot;, version.ref = &quot;androidx-espressoCore&quot; }..."
+                    robot="true"
+                    independent="true"
+                    oldString="_lint_insert_begin_"
+                    replacement="espresso-core-3_5_1 = { module = &quot;androidx.test.espresso:espresso-core&quot;, version.ref = &quot;androidx-espressoCore&quot; }&#xA;">
+                    <range
+                        file="$HOME/Desktop/YemekKop/gradle/libs.versions.toml"
+                        startOffset="187"
+                        endOffset="187"/>
+                </fix-replace>
+                <fix-replace
+                    description="Replace with libs.espresso.core.3_5_1"
+                    robot="true"
+                    independent="true"
+                    replacement="libs.espresso.core.3_5_1">
+                    <range
+                        file="${:app*projectDir}/build.gradle"
+                        startOffset="1154"
+                        endOffset="1198"/>
+                </fix-replace>
+            </fix-composite>
+            <fix-replace
+                description="Replace with existing version catalog reference `espresso-core`"
+                replacement="libs.espresso.core">
+                <range
+                    file="${:app*projectDir}/build.gradle"
+                    startOffset="1154"
+                    endOffset="1198"/>
+            </fix-replace>
+        </fix-alternatives>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="44"
+            column="31"
+            startOffset="1154"
+            endLine="44"
+            endColumn="75"
+            endOffset="1198"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.0">
+        <fix-replace
+            description="Change to 1.7.0"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.7.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="37"
+            column="20"
+            startOffset="792"
+            endLine="37"
+            endColumn="56"
+            endOffset="828"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.9.0 is available: 1.12.0">
+        <fix-replace
+            description="Change to 1.12.0"
+            family="Update versions"
+            oldString="1.9.0"
+            replacement="1.12.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="38"
+            column="20"
+            startOffset="848"
+            endLine="38"
+            endColumn="64"
+            endOffset="892"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.0">
+        <fix-replace
+            description="Change to 2.2.0"
+            family="Update versions"
+            oldString="2.1.4"
+            replacement="2.2.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="39"
+            column="20"
+            startOffset="912"
+            endLine="39"
+            endColumn="70"
+            endOffset="962"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.9.0 is available: 1.15.0">
+        <fix-replace
+            description="Change to 1.15.0"
+            family="Update versions"
+            oldString="1.9.0"
+            replacement="1.15.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="40"
+            column="20"
+            startOffset="982"
+            endLine="40"
+            endColumn="50"
+            endOffset="1012"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1">
+        <fix-replace
+            description="Change to 1.2.1"
+            family="Update versions"
+            oldString="1.1.5"
+            replacement="1.2.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="43"
+            column="31"
+            startOffset="1092"
+            endLine="43"
+            endColumn="62"
+            endOffset="1123"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1">
+        <fix-replace
+            description="Change to 3.6.1"
+            family="Update versions"
+            oldString="3.5.1"
+            replacement="3.6.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="44"
+            column="31"
+            startOffset="1154"
+            endLine="44"
+            endColumn="75"
+            endOffset="1198"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/italya_bayrak.jpg` in densityless folder">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/italya_bayrak.jpg"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/japonya_bayrak.png` in densityless folder">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/japonya_bayrak.png"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/tacos.webp` in densityless folder">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/tacos.webp"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/meksika_bayrak.webp` in densityless folder">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/meksika_bayrak.webp"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/pizza.webp` in densityless folder">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/pizza.webp"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/turkiye_bayrak.png` in densityless folder">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/turkiye_bayrak.png"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/tokat_kebabi.jpg` in densityless folder">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/tokat_kebabi.jpg"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/sushi.jpg` in densityless folder">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/sushi.jpg"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/doner.jpeg` in densityless folder">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/doner.jpeg"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/kebab.jpg` in densityless folder">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/kebab.jpg"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/yemek1.jpg` in densityless folder">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/yemek1.jpg"/>
+    </incident>
+
+    <incident
+        id="IconExtension"
+        severity="warning"
+        message="Misleading file extension; named `.jpg` but the file format is `webp`">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/yemek1.jpg"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `#FFFFFF` with a theme that also paints a background (inferred theme is `@style/Theme.YemekEvi`)">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yemek_detay.xml"
+            line="5"
+            column="5"
+            startOffset="195"
+            endLine="5"
+            endColumn="33"
+            endOffset="223"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `#FFFFFF` with a theme that also paints a background (inferred theme is `@style/Theme.YemekEvi`)">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_yeni_bos_sayfa.xml"
+            line="5"
+            column="5"
+            startOffset="195"
+            endLine="5"
+            endColumn="33"
+            endOffset="223"/>
+    </incident>
+
+</incidents>

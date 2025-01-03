@@ -1,0 +1,449 @@
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yeni_bos_sayfa.xml:13: Error: Placing a <WebView> in a parent element that uses a wrap_content layout_height can lead to subtle bugs; use match_parent instead [WebViewLayout]
+        <WebView
+         ~~~~~~~
+    /Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yeni_bos_sayfa.xml:9: wrap_content here may not work well with WebView below
+
+   Explanation for issues of type "WebViewLayout":
+   The WebView implementation has certain performance optimizations which will
+   not work correctly if the parent view is using wrap_content rather than
+   match_parent. This can lead to subtle UI bugs.
+
+/Users/muhammet/Desktop/YemekKop/app/build.gradle:12: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk 34
+        ~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/build.gradle.kts:12: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk = 34
+        ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application runs on a version of Android that is more recent than
+   your targetSdkVersion specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdkVersion
+   is less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+/Users/muhammet/Desktop/YemekKop/app/build.gradle:37: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.0 [GradleDependency]
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/build.gradle:38: Warning: A newer version of com.google.android.material:material than 1.9.0 is available: 1.12.0 [GradleDependency]
+    implementation 'com.google.android.material:material:1.9.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/build.gradle:39: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.0 [GradleDependency]
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/build.gradle:40: Warning: A newer version of androidx.core:core-ktx than 1.9.0 is available: 1.15.0 [GradleDependency]
+    implementation 'androidx.core:core-ktx:1.9.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/build.gradle:43: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1 [GradleDependency]
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/build.gradle:44: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1 [GradleDependency]
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/adapter_list.xml:16: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+        android:textSize="25dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SpUsage":
+   When setting text sizes, you should normally use sp, or "scale-independent
+   pixels". This is like the dp unit, but it is also scaled by the user's font
+   size preference. It is recommend you use this unit when specifying font
+   sizes, so they will be adjusted for both the screen density and the user's
+   preference.
+
+   There are cases where you might need to use dp; typically this happens when
+   the text is in a container with a specific dp-size. This will prevent the
+   text from spilling outside the container. Note however that this means that
+   the user's font size settings are not respected, so consider adjusting the
+   layout itself to be more flexible.
+
+   https://developer.android.com/training/multiscreen/screendensities.html
+
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:51: Warning: Avoid using "px" as units; use "dp" instead [PxUsage]
+                    android:layout_marginTop="230px" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:58: Warning: Avoid using "px" as units; use "dp" instead [PxUsage]
+                    android:layout_marginTop="40px" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:100: Warning: Avoid using "px" as units; use "dp" instead [PxUsage]
+                    android:layout_marginTop="230px" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:107: Warning: Avoid using "px" as units; use "dp" instead [PxUsage]
+                    android:layout_marginTop="40px" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:149: Warning: Avoid using "px" as units; use "dp" instead [PxUsage]
+                    android:layout_marginTop="230px" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:156: Warning: Avoid using "px" as units; use "dp" instead [PxUsage]
+                    android:layout_marginTop="40px" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:198: Warning: Avoid using "px" as units; use "dp" instead [PxUsage]
+                    android:layout_marginTop="230px" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:205: Warning: Avoid using "px" as units; use "dp" instead [PxUsage]
+                    android:layout_marginTop="40px" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:247: Warning: Avoid using "px" as units; use "dp" instead [PxUsage]
+                    android:layout_marginTop="230px" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:254: Warning: Avoid using "px" as units; use "dp" instead [PxUsage]
+                    android:layout_marginTop="40px" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:295: Warning: Avoid using "px" as units; use "dp" instead [PxUsage]
+                    android:layout_marginTop="230px" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:302: Warning: Avoid using "px" as units; use "dp" instead [PxUsage]
+                    android:layout_marginTop="40px" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "PxUsage":
+   For performance reasons and to keep the code simpler, the Android system
+   uses pixels as the standard unit for expressing dimension or coordinate
+   values. That means that the dimensions of a view are always expressed in
+   the code using pixels, but always based on the current screen density. For
+   instance, if myView.getWidth() returns 10, the view is 10 pixels wide on
+   the current screen, but on a device with a higher density screen, the value
+   returned might be 15. If you use pixel values in your application code to
+   work with bitmaps that are not pre-scaled for the current screen density,
+   you might need to scale the pixel values that you use in your code to match
+   the un-scaled bitmap source.
+
+   https://developer.android.com/guide/practices/screens_support.html#screen-independence
+
+/Users/muhammet/Desktop/YemekKop/app/src/main/java/com/example/yemekevi/YeniBosSayfaActivity.java:33: Warning: Using setJavaScriptEnabled can introduce XSS vulnerabilities into your application, review carefully [SetJavaScriptEnabled]
+        webView.getSettings().setJavaScriptEnabled(true);
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SetJavaScriptEnabled":
+   Your code should not invoke setJavaScriptEnabled if you are not sure that
+   your app really requires JavaScript support.
+
+   https://goo.gle/SetJavaScriptEnabled
+   https://developer.android.com/training/articles/security-tips
+
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:5: Warning: Possible overdraw: Root element paints background #FFFFFF with a theme that also paints a background (inferred theme is @style/Theme.YemekEvi) [Overdraw]
+    android:background="#FFFFFF">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yeni_bos_sayfa.xml:5: Warning: Possible overdraw: Root element paints background #FFFFFF with a theme that also paints a background (inferred theme is @style/Theme.YemekEvi) [Overdraw]
+    android:background="#FFFFFF">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "Overdraw":
+   If you set a background drawable on a root view, then you should use a
+   custom theme where the theme background is null. Otherwise, the theme
+   background will be painted first, only to have your custom background
+   completely cover it; this is called "overdraw".
+
+   NOTE: This detector relies on figuring out which layouts are associated
+   with which activities based on scanning the Java code, and it's currently
+   doing that using an inexact pattern matching algorithm. Therefore, it can
+   incorrectly conclude which activity the layout is associated with and then
+   wrongly complain that a background-theme is hidden.
+
+   If you want your custom background on multiple pages, then you should
+   consider making a custom theme with your custom background and just using
+   that theme instead of a root element background.
+
+   Of course it's possible that your custom drawable is translucent and you
+   want it to be mixed with the background. However, you will get better
+   performance if you pre-mix the background with your drawable and use that
+   resulting image or color as a custom theme background instead.
+
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_bos_sayfa.xml:2: Warning: The resource R.layout.activity_bos_sayfa appears to be unused [UnusedResources]
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay_sayfa.xml:2: Warning: The resource R.layout.activity_yemek_detay_sayfa appears to be unused [UnusedResources]
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_listesi.xml:2: Warning: The resource R.layout.activity_yemek_listesi appears to be unused [UnusedResources]
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_video.xml:2: Warning: The resource R.layout.activity_yemek_video appears to be unused [UnusedResources]
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/adapter_list.xml:2: Warning: The resource R.layout.adapter_list appears to be unused [UnusedResources]
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/values/colors.xml:3: Warning: The resource R.color.black appears to be unused [UnusedResources]
+    <color name="black">#FF000000</color>
+           ~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/values/colors.xml:4: Warning: The resource R.color.white appears to be unused [UnusedResources]
+    <color name="white">#FFFFFFFF</color>
+           ~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/custom_toast.xml:2: Warning: The resource R.layout.custom_toast appears to be unused [UnusedResources]
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/drawable/hover_border.xml:2: Warning: The resource R.drawable.hover_border appears to be unused [UnusedResources]
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+^
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/values-night/themes.xml:3: Warning: The resource R.style.Base_Theme_DersYBS4_2211 appears to be unused [UnusedResources]
+    <style name="Base.Theme.DersYBS4_2211" parent="Theme.Material3.DayNight.NoActionBar">
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/drawable/doner.jpeg: Warning: Found bitmap drawable res/drawable/doner.jpeg in densityless folder [IconLocation]
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/drawable/italya_bayrak.jpg: Warning: Found bitmap drawable res/drawable/italya_bayrak.jpg in densityless folder [IconLocation]
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/drawable/japonya_bayrak.png: Warning: Found bitmap drawable res/drawable/japonya_bayrak.png in densityless folder [IconLocation]
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/drawable/kebab.jpg: Warning: Found bitmap drawable res/drawable/kebab.jpg in densityless folder [IconLocation]
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/drawable/meksika_bayrak.webp: Warning: Found bitmap drawable res/drawable/meksika_bayrak.webp in densityless folder [IconLocation]
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/drawable/pizza.webp: Warning: Found bitmap drawable res/drawable/pizza.webp in densityless folder [IconLocation]
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/drawable/sushi.jpg: Warning: Found bitmap drawable res/drawable/sushi.jpg in densityless folder [IconLocation]
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/drawable/tacos.webp: Warning: Found bitmap drawable res/drawable/tacos.webp in densityless folder [IconLocation]
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/drawable/tokat_kebabi.jpg: Warning: Found bitmap drawable res/drawable/tokat_kebabi.jpg in densityless folder [IconLocation]
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/drawable/turkiye_bayrak.png: Warning: Found bitmap drawable res/drawable/turkiye_bayrak.png in densityless folder [IconLocation]
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/drawable/yemek1.jpg: Warning: Found bitmap drawable res/drawable/yemek1.jpg in densityless folder [IconLocation]
+
+   Explanation for issues of type "IconLocation":
+   The res/drawable folder is intended for density-independent graphics such
+   as shapes defined in XML. For bitmaps, move it to drawable-mdpi and
+   consider providing higher and lower resolution versions in drawable-ldpi,
+   drawable-hdpi and drawable-xhdpi. If the icon really is density independent
+   (for example a solid color) you can place it in drawable-nodpi.
+
+   https://developer.android.com/guide/practices/screens_support.html
+
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/drawable/yemek1.jpg: Warning: Misleading file extension; named .jpg but the file format is webp [IconExtension]
+
+   Explanation for issues of type "IconExtension":
+   Ensures that icons have the correct file extension (e.g. a .png file is
+   really in the PNG format and not for example a GIF file named .png).
+
+/Users/muhammet/Desktop/YemekKop/app/build.gradle:37: Warning: Use version catalog instead (androidx.appcompat:appcompat is already available as appcompat, but using version 1.7.0 instead) [UseTomlInstead]
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/build.gradle:38: Warning: Use version catalog instead (com.google.android.material:material is already available as material, but using version 1.12.0 instead) [UseTomlInstead]
+    implementation 'com.google.android.material:material:1.9.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/build.gradle:39: Warning: Use version catalog instead (androidx.constraintlayout:constraintlayout is already available as constraintlayout, but using version 2.2.0 instead) [UseTomlInstead]
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/build.gradle:40: Warning: Use version catalog instead [UseTomlInstead]
+    implementation 'androidx.core:core-ktx:1.9.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/build.gradle:42: Warning: Use the existing version catalog reference (libs.junit) instead [UseTomlInstead]
+    testImplementation 'junit:junit:4.13.2'
+                       ~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/build.gradle:43: Warning: Use version catalog instead (androidx.test.ext:junit is already available as ext-junit, but using version 1.2.1 instead) [UseTomlInstead]
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/build.gradle:44: Warning: Use version catalog instead (androidx.test.espresso:espresso-core is already available as espresso-core, but using version 3.6.1 instead) [UseTomlInstead]
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseTomlInstead":
+   If your project is using a libs.versions.toml file, you should place all
+   Gradle dependencies in the TOML file. This lint check looks for version
+   declarations outside of the TOML file and suggests moving them (and in the
+   IDE, provides a quickfix to performing the operation automatically).
+
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:22: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:53: Warning: Missing contentDescription attribute on image [ContentDescription]
+                <ImageView
+                 ~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:71: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:102: Warning: Missing contentDescription attribute on image [ContentDescription]
+                <ImageView
+                 ~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:120: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:151: Warning: Missing contentDescription attribute on image [ContentDescription]
+                <ImageView
+                 ~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:169: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:200: Warning: Missing contentDescription attribute on image [ContentDescription]
+                <ImageView
+                 ~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:218: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:249: Warning: Missing contentDescription attribute on image [ContentDescription]
+                <ImageView
+                 ~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:266: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:297: Warning: Missing contentDescription attribute on image [ContentDescription]
+                <ImageView
+                 ~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/adapter_list.xml:20: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageView
+     ~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/custom_toast.xml:8: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageView
+     ~~~~~~~~~
+
+   Explanation for issues of type "ContentDescription":
+   Non-textual widgets like ImageViews and ImageButtons should use the
+   contentDescription attribute to specify a textual description of the widget
+   such that screen readers and other accessibility tools can adequately
+   describe the user interface.
+
+   Note that elements in application screens that are purely decorative and do
+   not provide any content or enable a user action should not have
+   accessibility content descriptions. In this case, set their descriptions to
+   @null. If your app's minSdkVersion is 16 or higher, you can instead set
+   these graphical elements' android:importantForAccessibility attributes to
+   no.
+
+   Note that for text fields, you should not set both the hint and the
+   contentDescription attributes since the hint will never be shown. Just set
+   the hint.
+
+   https://developer.android.com/guide/topics/ui/accessibility/apps#special-cases
+
+/Users/muhammet/Desktop/YemekKop/app/src/main/java/com/example/yemekevi/YeniBosSayfaActivity.java:90: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        aciklama.setText(yemekTuru + " için açıklama yakında eklenecek.");
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/java/com/example/yemekevi/YeniBosSayfaActivity.java:90: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        aciklama.setText(yemekTuru + " için açıklama yakında eklenecek.");
+                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_bos_sayfa.xml:13: Warning: Hardcoded string "Boş Sayfa", should use @string resource [HardcodedText]
+        android:text="Boş Sayfa"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_main.xml:14: Warning: Hardcoded string "Logo Resmi", should use @string resource [HardcodedText]
+        android:contentDescription="Logo Resmi" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_main.xml:20: Warning: Hardcoded string "Yemek Evi", should use @string resource [HardcodedText]
+        android:text="Yemek Evi"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_main.xml:29: Warning: Hardcoded string "Yükleniyor", should use @string resource [HardcodedText]
+        android:text="Yükleniyor"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:41: Warning: Hardcoded string "Adana Kebap", should use @string resource [HardcodedText]
+                    android:text="Adana Kebap"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:49: Warning: Hardcoded string "Türkiye", should use @string resource [HardcodedText]
+                    android:text="Türkiye"
+                    ~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:90: Warning: Hardcoded string "Sushi", should use @string resource [HardcodedText]
+                    android:text="Sushi"
+                    ~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:98: Warning: Hardcoded string "Japonya", should use @string resource [HardcodedText]
+                    android:text="Japonya"
+                    ~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:139: Warning: Hardcoded string "Taco", should use @string resource [HardcodedText]
+                    android:text="Taco"
+                    ~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:147: Warning: Hardcoded string "Meksika", should use @string resource [HardcodedText]
+                    android:text="Meksika"
+                    ~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:188: Warning: Hardcoded string "Pizza", should use @string resource [HardcodedText]
+                    android:text="Pizza"
+                    ~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:196: Warning: Hardcoded string "İtalya", should use @string resource [HardcodedText]
+                    android:text="İtalya"
+                    ~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:237: Warning: Hardcoded string "Döner", should use @string resource [HardcodedText]
+                    android:text="Döner"
+                    ~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:245: Warning: Hardcoded string "Türkiye", should use @string resource [HardcodedText]
+                    android:text="Türkiye"
+                    ~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:285: Warning: Hardcoded string "Tokat Kebabı", should use @string resource [HardcodedText]
+                    android:text="Tokat Kebabı"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:293: Warning: Hardcoded string "Türkiye", should use @string resource [HardcodedText]
+                    android:text="Türkiye"
+                    ~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay_sayfa.xml:12: Warning: Hardcoded string "Yemek Bilgisi", should use @string resource [HardcodedText]
+        android:text="Yemek Bilgisi"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_listesi.xml:12: Warning: Hardcoded string "Yemek Listesi", should use @string resource [HardcodedText]
+        android:text="Yemek Listesi"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/adapter_list.xml:14: Warning: Hardcoded string "TextView", should use @string resource [HardcodedText]
+        android:text="TextView"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:35: Warning: When you define paddingStart you should probably also define paddingEnd for right-to-left symmetry [RtlSymmetry]
+                android:paddingStart="16dp">
+                ~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:84: Warning: When you define paddingStart you should probably also define paddingEnd for right-to-left symmetry [RtlSymmetry]
+                android:paddingStart="16dp">
+                ~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:133: Warning: When you define paddingStart you should probably also define paddingEnd for right-to-left symmetry [RtlSymmetry]
+                android:paddingStart="16dp">
+                ~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:182: Warning: When you define paddingStart you should probably also define paddingEnd for right-to-left symmetry [RtlSymmetry]
+                android:paddingStart="16dp">
+                ~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:231: Warning: When you define paddingStart you should probably also define paddingEnd for right-to-left symmetry [RtlSymmetry]
+                android:paddingStart="16dp">
+                ~~~~~~~~~~~~~~~~~~~~
+/Users/muhammet/Desktop/YemekKop/app/src/main/res/layout/activity_yemek_detay.xml:279: Warning: When you define paddingStart you should probably also define paddingEnd for right-to-left symmetry [RtlSymmetry]
+                android:paddingStart="16dp">
+                ~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "RtlSymmetry":
+   If you specify padding or margin on the left side of a layout, you should
+   probably also specify padding on the right side (and vice versa) for
+   right-to-left layout symmetry.
+
+1 errors, 94 warnings

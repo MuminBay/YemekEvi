@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Adana Kebap -->
+        <LinearLayout
+            android:id="@+id/yemekLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/yemekResim1"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/kebab"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:id="@+id/bilgiLayout1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="16dp">
+
+                <TextView
+                    android:id="@+id/yemekAdi1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adana Kebap"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ulke1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Türkiye"
+                    android:textSize="16sp"
+                    android:layout_marginTop="230px" />
+
+                <ImageView
+                    android:id="@+id/bayrak1"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/turkiye_bayrak"
+                    android:layout_marginTop="40px" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Sushi -->
+        <LinearLayout
+            android:id="@+id/yemekLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/yemekResim2"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/sushi"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:id="@+id/bilgiLayout2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="16dp">
+
+                <TextView
+                    android:id="@+id/yemekAdi2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sushi"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ulke2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Japonya"
+                    android:textSize="16sp"
+                    android:layout_marginTop="230px" />
+
+                <ImageView
+                    android:id="@+id/bayrak2"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/japonya_bayrak"
+                    android:layout_marginTop="40px" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Taco -->
+        <LinearLayout
+            android:id="@+id/yemekLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/yemekResim3"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/tacos"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:id="@+id/bilgiLayout3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="16dp">
+
+                <TextView
+                    android:id="@+id/yemekAdi3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Taco"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ulke3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Meksika"
+                    android:textSize="16sp"
+                    android:layout_marginTop="230px" />
+
+                <ImageView
+                    android:id="@+id/bayrak3"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/meksika_bayrak"
+                    android:layout_marginTop="40px" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Pizza -->
+        <LinearLayout
+            android:id="@+id/yemekLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/yemekResim4"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/pizza"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:id="@+id/bilgiLayout4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="16dp">
+
+                <TextView
+                    android:id="@+id/yemekAdi4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pizza"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ulke4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="İtalya"
+                    android:textSize="16sp"
+                    android:layout_marginTop="230px" />
+
+                <ImageView
+                    android:id="@+id/bayrak4"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/italya_bayrak"
+                    android:layout_marginTop="40px" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Döner -->
+        <LinearLayout
+            android:id="@+id/yemekLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/yemekResim7"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/doner"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:id="@+id/bilgiLayout7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="16dp">
+
+                <TextView
+                    android:id="@+id/yemekAdi7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Döner"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ulke7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Türkiye"
+                    android:textSize="16sp"
+                    android:layout_marginTop="230px" />
+
+                <ImageView
+                    android:id="@+id/bayrak7"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/turkiye_bayrak"
+                    android:layout_marginTop="40px" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Tokat Kebabı -->
+        <LinearLayout
+            android:id="@+id/yemekLayout8"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/yemekResim8"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/tokat_kebabi"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:id="@+id/bilgiLayout8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="16dp">
+
+                <TextView
+                    android:id="@+id/yemekAdi8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tokat Kebabı"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ulke8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Türkiye"
+                    android:textSize="16sp"
+                    android:layout_marginTop="230px" />
+
+                <ImageView
+                    android:id="@+id/bayrak8"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/turkiye_bayrak"
+                    android:layout_marginTop="40px" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView> 

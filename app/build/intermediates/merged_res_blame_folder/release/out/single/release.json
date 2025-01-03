@@ -1,0 +1,150 @@
+[
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.yemekevi.app-main-29:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.yemekevi.app-main-29:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/drawable_hover_border.xml.flat",
+        "source": "com.example.yemekevi.app-main-29:/drawable/hover_border.xml"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.yemekevi.app-main-29:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/drawable_doner.jpeg.flat",
+        "source": "com.example.yemekevi.app-main-29:/drawable/doner.jpeg"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.example.yemekevi.app-main-29:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/drawable_kebab.jpg.flat",
+        "source": "com.example.yemekevi.app-main-29:/drawable/kebab.jpg"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.yemekevi.app-main-29:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/xml_backup_rules.xml.flat",
+        "source": "com.example.yemekevi.app-main-29:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/drawable_turkiye_bayrak.png.flat",
+        "source": "com.example.yemekevi.app-main-29:/drawable/turkiye_bayrak.png"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.yemekevi.app-main-29:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/layout_activity_main.xml.flat",
+        "source": "com.example.yemekevi.app-main-29:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.yemekevi.app-main-29:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/layout_activity_yemek_listesi.xml.flat",
+        "source": "com.example.yemekevi.app-main-29:/layout/activity_yemek_listesi.xml"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.yemekevi.app-main-29:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/drawable_sushi.jpg.flat",
+        "source": "com.example.yemekevi.app-main-29:/drawable/sushi.jpg"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/layout_activity_yemek_video.xml.flat",
+        "source": "com.example.yemekevi.app-main-29:/layout/activity_yemek_video.xml"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/layout_adapter_list.xml.flat",
+        "source": "com.example.yemekevi.app-main-29:/layout/adapter_list.xml"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/drawable_italya_bayrak.jpg.flat",
+        "source": "com.example.yemekevi.app-main-29:/drawable/italya_bayrak.jpg"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/layout_activity_yemek_detay.xml.flat",
+        "source": "com.example.yemekevi.app-main-29:/layout/activity_yemek_detay.xml"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/layout_activity_bos_sayfa.xml.flat",
+        "source": "com.example.yemekevi.app-main-29:/layout/activity_bos_sayfa.xml"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/drawable_japonya_bayrak.png.flat",
+        "source": "com.example.yemekevi.app-main-29:/drawable/japonya_bayrak.png"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/drawable_pizza.webp.flat",
+        "source": "com.example.yemekevi.app-main-29:/drawable/pizza.webp"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.yemekevi.app-main-29:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/drawable_meksika_bayrak.webp.flat",
+        "source": "com.example.yemekevi.app-main-29:/drawable/meksika_bayrak.webp"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.yemekevi.app-main-29:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/drawable_tokat_kebabi.jpg.flat",
+        "source": "com.example.yemekevi.app-main-29:/drawable/tokat_kebabi.jpg"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/layout_activity_yemek_detay_sayfa.xml.flat",
+        "source": "com.example.yemekevi.app-main-29:/layout/activity_yemek_detay_sayfa.xml"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.example.yemekevi.app-main-29:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.yemekevi.app-main-29:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/layout_activity_yeni_bos_sayfa.xml.flat",
+        "source": "com.example.yemekevi.app-main-29:/layout/activity_yeni_bos_sayfa.xml"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/drawable_tacos.webp.flat",
+        "source": "com.example.yemekevi.app-main-29:/drawable/tacos.webp"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/layout_custom_toast.xml.flat",
+        "source": "com.example.yemekevi.app-main-29:/layout/custom_toast.xml"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.yemekevi.app-main-29:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.yemekevi.app-main-29:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.yemekevi.app-main-29:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.yemekevi.app-merged_res-28:/drawable_yemek1.jpg.flat",
+        "source": "com.example.yemekevi.app-main-29:/drawable/yemek1.jpg"
+    }
+]
